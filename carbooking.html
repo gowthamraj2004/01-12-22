@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="rajstyle3.css">
+    <title>Car Booking</title>
+</head>
+<body>
+    <div class="head">
+       <label><h1>Mode of travel</h1></label>    
+       <select name="vehicle" id="movie">
+        <option value="car">CAR
+        </option>
+    </select>
+</div>
+
+<ul class="case">
+   
+    <li>
+        <div class="seat"></div>
+        <small>Available</small>
+    </li>
+   
+    <li>
+        <div class="seatselected"></div>
+        <small>Selected</small>
+    </li>
+   
+    <li>
+        <div class="seatsold"></div>
+        <small>Unavailable</small>
+    </li>
+</ul>
+
+<div class="row">
+<div class="miniimg"><img src="mini.jpeg" height="150" width="150"></div>
+    <div class="mini"><h1>Mini</h1>
+    <p>Book for comfy and economical ride</p></div>
+</div>
+
+<div class="row">
+    <div class="sedanimg"><img src="sedan.jpeg" height="150" width="150"></div>
+    <div class="sedan"><h1>Prime sedan</h1>
+    <p>Book for spacious sedan, top drivers</p></div>
+</div>
+
+<div class="row">
+    <div class="suvimg"><img src="suvimg.jpeg" height="150" width="150"></div>
+    <div class="suv"><h1>SUV</h1>
+    <p>Book for spacious and most comfort</p></div>
+</div>
+
+<div class="row">
+    <div class="auto"></div>
+</div>
+
+<p class="text">You have selected <span id="count">Prime sedan</span> for RS.<span id="total">600</span>
+</p>
+<a href="payment.html" class="button">Continue</a>
+</body>
+</html>

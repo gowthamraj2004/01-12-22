@@ -1,0 +1,95 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)) ,url(select.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+}
+
+p{
+    text-align: left;
+    padding-right: 200px;
+    margin: 10px;
+}
+
+.head{
+    color: aliceblue;
+    font-weight: bolder;
+    font-size: x-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 10px solid rgb(243, 14, 14);
+    border-radius: 25px;
+    padding: 10px;
+    margin: 50px;
+    border-style: ridge;
+    text-align: center;
+    justify-content: center;
+    width: fit-content;
+}
+
+.head:hover{
+    background-color:azure;
+    color: black;
+}
+
+.cardcar{
+    background-color: aliceblue;
+    margin: 50px;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    background-image:url(car.jpeg) ;
+    background-repeat: no-repeat;
+    background-position: 1210px;
+    border: 5px solid rgb(244, 33, 33);
+}
+
+.cardbus{
+    background-color: aliceblue;
+    margin: 50px;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    background-image: url(rajbus.jpeg);
+    background-repeat: no-repeat;
+    background-position: 1210px;
+    border: 5px solid rgb(244, 33, 33);
+}
+
+.cardtrain{
+    background-color: aliceblue;
+    margin: 50px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    background-image:url(train.jpeg);
+    background-repeat: no-repeat;
+    background-position: 1210px;
+    border: 5px solid rgb(244, 33, 33);
+}
+
+.button{
+    width: fit-content;
+    height:fit-content;
+    justify-content: center;
+    padding: 10px;
+    margin-top: 10px;
+    border: 10px solid black;
+    background-color: black;
+    color: aliceblue;
+}
+
+.button:hover{
+    background-color: aqua;
+    color: black;
+    transition: 0.5s ease-in;
+    transform: scale(0.9);
+}
+
+a{
+    text-decoration: none;
+}

@@ -1,0 +1,223 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)) ,url(carback.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: rgb(247, 240, 245);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    margin: 0;
+    animation: bottom 3s ease-out;
+}
+
+.head{
+    margin: 10px 0;
+}
+
+.head select{
+    background-color: aliceblue;
+    border: 10px;
+    border-style: double;
+    border-radius: 15px;
+    font-size: 16px;
+    margin-left: 120px;
+    padding: 5px 15px 5px 15px;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    animation: load 2s;
+    animation-delay: 3.5s;
+}
+
+.case{
+    background: rgba(58, 45, 152, 0.5);
+    padding: 5px 10px;
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.case li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 15px;
+}
+
+.case li small{
+    margin-left: 10px;
+}
+
+.row{
+    display: flex;
+}
+
+.seat{
+    background-color: aliceblue;
+    height: 60px;
+    width: 60px;
+    margin: 5px;
+    transform: translateX(0%);
+}
+
+.seatselected{
+    background-color: #d4ff00;
+    height:60px;
+    width: 60px;
+    margin: 5px;
+}
+
+.seatsold{
+    background-color: aqua;
+    height: 60px;
+    width: 60px;
+    margin: 5px;
+}
+
+p.text{
+    margin: 10px 0;
+}
+
+p.text span{
+    color: chartreuse;
+    }
+
+.button{
+    border: 5px solid red;
+    border-radius: 10px;
+    border-style: groove;
+    padding: 10px;
+    margin-bottom: 10px;
+    animation: load 2s;
+    animation-delay: 5s;
+    animation-iteration-count: infinite;
+    text-decoration: none;
+    color: black;
+    background-color: aliceblue;
+  }
+  
+  .button:hover {
+    background-color: #d4ff00;
+    animation-play-state: paused;
+  }
+
+  .mini{
+    margin: 50px;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    background-repeat: no-repeat;
+    border: 5px solid red;
+    border-radius: 45px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .miniimg{
+  margin-top: 45px ; 
+  border: 10px solid red;
+  border-radius: 15px;
+    width: 150px;
+    height: 150px;  
+  }
+
+  .mini:hover{
+    background-color: #eaeae8;
+    color: black;
+    transform: scale(0.9);
+    transition: 0.5s ease-in;
+  }
+  .sedan{
+    margin: 50px;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    background-repeat: no-repeat;
+    border: 5px solid red;
+    border-radius: 45px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .sedanimg{
+    margin-top: 45px ; 
+    border: 10px solid red;
+    border-radius: 15px;
+    width: 150px;
+    height: 150px;
+  }
+  .sedan:hover{
+    background-color:#d4ff00;
+    color: black;
+    transform: scale(0.9);
+    transition: 0.5s ease-in;
+  }
+
+  .suv{
+    margin: 50px;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    background-repeat: no-repeat;
+    border: 5px solid red;
+    border-radius: 45px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .suvimg{
+    margin-top: 45px ; 
+    border: 10px solid red;
+    border-radius: 15px;
+    width: 150px;
+    height: 150px;
+  }
+
+  .suv:hover{
+    background-color:aqua;
+    color: black;
+    transform: scale(0.9);
+    transition: 0.5s ease-in;
+  }
+
+  @keyframes bottom{
+    0%{
+        transform: translateY(100%);
+    }
+    100%{
+      transform: translateY(0%);
+    }
+  }
+    @keyframes load{
+      0%{
+      transform: scale(0);
+    }
+    90%{
+      transform: scale(1.1);
+    }
+    100%{
+      transform: scale(1);
+    }
+  }
+  @keyframes head{
+    0%{
+      transform:translateY(-100%);
+    }
+    100%{
+      transform: translateY(0%);
+    }
+  }
